@@ -1,0 +1,995 @@
+/*Media Queries*/
+@media screen and (min-width: 1276px) {
+  h1 /* Main title*/
+  {
+    font-size: 72px;
+  }
+  h2 /* Titles for sections*/
+  {
+    font-size: 36px;
+  }
+  h3 /* Misc titles*/
+  {
+    font-size: 28px;
+  }
+  h4 /* Names for quotes*/
+  {
+    font-size: 26px;
+  }
+  li{
+    font-size: x-large;
+  }
+  #nav-span div /* Top nav tabs*/
+  {
+    font-size: x-large;
+    height: 2.5em;
+    line-height: 2.5em;
+  }
+  p /* Words in quotes*/
+  {
+    font-size: 24px;
+  }
+  #vertical {
+    margin-top: 4%;
+  }
+  #vertical hr{
+    height: 36em;
+  }
+  #left-pane{
+    height: 42em;
+  }
+  #right-pane{
+    height: 42em;
+  }
+  #under-header{
+    height: 11em;
+  }
+}
+
+/* If the screen size is 1275px wide or less*/
+@media screen and (max-width: 1275px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2{
+    font-size: 24px;
+  }    
+  h3{
+    font-size: 24px;
+  }
+  h4{
+    font-size: 22px;
+  }
+  #nav-span div{
+    font-size: 18px;
+    height: 2.25em;
+    line-height: 2.25em;
+  }
+  p{
+    font-size: 20px;
+  }
+  #vertical {
+    margin-top: 5%;
+  }
+  #vertical hr{
+    height: 32em;
+  }
+  #left-pane{
+    height: 38em;
+  }
+  #right-pane{
+    height: 38em;
+  }
+  #under-header{
+    height: 10.25em;
+  }
+}
+
+/* If the screen size is 1080px wide or less*/
+@media screen and (max-width: 1080px) {
+  h1 {
+    font-size: 58px;
+  }
+  h2{
+    font-size: 23px;
+  }    
+  h3{
+    font-size: 23px;
+  }
+  h4{
+    font-size: 21px;
+  }
+  #nav-span div{
+    font-size: 17px;
+    height: 2em;
+    line-height: 2em;
+  }
+  p{
+    font-size: 19px;
+  }
+  #vertical {
+    margin-top: 6%;
+  }
+  #vertical hr{
+    height: 30em;
+  }
+  #left-pane{
+    height: 39em;
+  }
+  #right-pane{
+    height: 39em;
+  }
+  #under-header{
+    height: 10em;
+  }
+}
+
+/* If the screen size is 950px wide or less*/
+@media screen and (max-width: 950px) {
+  h1 {
+    font-size: 52px;
+  }
+  h2{
+    font-size: 22px;
+  }  
+  h3{
+    font-size: 20px;
+  }
+  h4{
+    font-size: 20px;
+  }
+  li{
+    font-size: medium;
+  }
+  #nav-span div{
+    font-size: 18px;
+    height: 2em;
+    line-height: 2em;
+  }
+  p{
+    font-size: 18px;
+  }
+  #vertical {
+    margin-top: 7%;
+  }
+  #vertical hr{
+    height: 27em;
+  }
+  #left-pane{
+    height: 36em;
+  }
+  #right-pane{
+    height: 36em;
+  }
+  #under-header{
+    height: 9em;
+  }
+}
+
+
+/* If the screen size is 800px wide or less*/
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  h3{
+    font-size: 18px;
+  }
+  h4{
+    font-size: 18px;
+  }
+  li{
+    font-size: small;
+  }
+  #nav-span div{
+    font-size: 16px;
+    height: 2.5em;
+    line-height: 2.5em;
+  }
+  p{
+    font-size: 14px;
+  }
+  #vertical {
+    margin-top: 10%;
+  }
+  #vertical hr{
+    height: 24em;
+  }
+  #left-pane{
+    height: 32em;
+  }
+  #right-pane{
+    height: 32em;
+  }
+  #under-header{
+    height: 6.5em;
+  }
+}
+
+/* If the screen size is 600px wide or less*/
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 31px;
+    padding-top: .2em;
+  }
+  h2{
+    font-size: 20px;
+  }
+  h3{
+    font-size: 16px;
+  }
+  h4{
+    font-size: 16px;
+  }
+  li{
+    font-size: xx-small;   
+  }
+  #nav-span div{
+    font-size: 12px;
+    height: 2.5em;
+    line-height: 2.5em;
+  }
+  p{
+    font-size: 11px;
+  }
+  #vertical {
+    margin-top: 11%;
+  }
+  #vertical hr{
+    height: 18em;
+  }
+  #left-pane{
+    height: 26em;
+  }
+  #right-pane{
+    height: 26em;
+  }
+  #under-header{
+    height:6em;
+  }
+}
+
+/* If the screen size is 465px wide or less*/
+@media screen and (max-width: 465px) {
+  h1 {
+    font-size: 29px;
+  }
+  #under-header{
+    height: 6em;
+  }
+}
+
+
+/* If the screen size is 425px wide or less*/
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: 26px;
+    padding-top: .3em;
+
+  }
+  h2{
+    font-size: 16px;
+  }
+  h4{
+    font-size: 12px;
+  }
+  #nav-span div{
+    font-size: 11px;
+    padding: 0 .4em !important;
+    height: 2.25em;
+    line-height: 2.25em;
+  }
+  p{
+    font-size: 12px;
+  }
+  #vertical {
+    margin-top: 12%;
+  }
+  #vertical hr{
+    height: 18em;
+  }
+  #left-pane{
+    height: 24em;
+  }
+  #right-pane{
+    height: 24em;
+  }
+}
+
+/* If the screen size is 375px wide or less*/
+@media screen and (max-width: 375px) {
+  h1 {
+    font-size: 19px;
+  }
+  h2{
+    font-size: 12px;
+  }
+  h4{
+    font-size: 8px;
+  }
+  #nav-span div{
+    font-size: 12px;
+    height: 3em;
+    line-height: 3em;
+  }
+  p{
+    font-size: 10px;
+  }
+  #vertical {
+    margin-top: 14%;
+  }
+  #vertical hr{
+    height: 16em;
+  }
+  #left-pane{
+    height: 22em;
+  }
+  #right-pane{
+    height: 22em;
+  }
+  #under-header{
+    height: 4em;
+  }
+}
+
+.red{  
+  background-color: #DD4124;
+  z-index: -1 !important;
+  }
+.orange{  
+  background-color: #D2691E;
+  z-index: -1 !important;
+}
+.yellow{  
+  background-color: #EFC050;
+  z-index: -1 !important;
+}
+.green{  
+  background-color: #009B77;
+  z-index: -1 !important;
+}
+.blue{  
+  background-color: #98B4D4;
+  z-index: -1 !important;
+}
+.purple{  
+  background-color: #B76BA3;
+  z-index: -1 !important;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Courier', Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 75%; 
+  }
+.header{
+  text-align: center; 
+}
+  h1 {
+    font-family: 'Courier', Arial, sans-serif;
+    font-weight: 200;
+    display: block;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+    margin:0;
+    text-shadow: 2px 2px whitesmoke;
+
+  }
+
+  Title h1{
+    font-weight: 500;
+  }
+
+  h2{
+    margin:0;
+    margin-top: .25em;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+    
+  }
+
+  a{
+      text-decoration: none;
+      color: blue;    
+  }
+
+  nav {    
+      height: 100%;
+  }
+
+  #nav-span{
+      margin: 0;
+      padding:0;
+      height: 100%;
+      width: 100%;
+      text-align: center;
+  }
+
+  #nav-span > div{
+    float: none;
+    display: inline-block;     
+    width: 10%;
+    padding: 0 .8em;
+    position: relative;
+  }
+    #nav-span div  {
+    color: black;
+    cursor: pointer;
+    text-shadow: 1px 1px whitesmoke;
+
+  }
+  #nav-span div:hover {
+    color: whitesmoke !important;
+    cursor: pointer;
+    text-shadow: 2px 2px black !important;
+  }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 2rem;           
+}
+
+footer div{
+  font-size: small;
+
+
+}
+
+.link{
+  color: blue;
+  cursor: pointer;
+}
+
+.tabs{
+  cursor: pointer;
+}
+
+  #nav-bar{
+      text-align: center;
+      height: 4em;
+  }
+
+  #under-header{
+    width: 100%;
+    position: relative;
+  }
+
+  #Title{
+    position: absolute;
+    top: 6%;
+    width: 100%;
+    height: 100%;
+
+  }
+
+  #body-content{
+    padding-top: .5em;
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 2.5rem;
+  }
+  #right-pane{
+    width: 47%;
+    text-align: center;
+    float: right;
+    position: relative;
+    top: 1.25em;
+  }
+
+  #left-pane{
+    width:47%;
+    text-align: center;
+    float: left;
+    position: relative;
+    top: 1.25em;
+  }
+
+  .quotes{
+    float:right;
+    margin: 0;
+  }
+
+  hr{
+    box-sizing: border-box;
+    border: none;
+    height: 2px;
+    width: 100%;
+    display: block;
+    background: black;
+    margin: 0;
+  }
+
+  #vertical{
+    display: inline-block;
+    width: 6%;
+  }
+
+  #vertical hr{
+    background: black;
+    width: 2px;
+    margin: 0 auto;
+  }
+
+  .stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+    
+}
+
+.topHR{
+  margin-top: 0;
+  margin-block-start: 0;
+  margin-bottom: 0;
+}
+
+  .hide-display{
+    display: none;
+  }
+
+  .show-visible{
+    visibility: visible !important;
+  }
+
+#referrals{
+  visibility: hidden;
+}
+
+/*Projects*/
+  .quotation {
+    color: whitesmoke;
+    font-weight: 200;
+    margin-bottom: 0;
+    text-shadow: 1.5px 1.5px black;
+  }
+
+#project-holder{
+  position: relative;
+}
+
+#projects{
+  bottom: .5em;
+  visibility: hidden;
+  height: 100%;
+}
+
+#leftArrow{
+  position: absolute;
+  top: 30%;
+  left: 2%;
+}
+
+#rightArrow{
+  position: absolute;
+  top: 30%;
+  left: 92%;
+}
+
+/*Skills*/
+#skills{
+  visibility: hidden;
+}
+
+.skillList{
+  list-style: none;
+  margin: 2em 0;
+  padding: 0 .15em;
+}
+
+.skillList li{
+  padding-bottom: .5em;
+}
+
+
+/*Services*/
+#services{
+  visibility: hidden;
+}
+
+#serviceHolder{
+  list-style: none;
+  padding: 0;
+  color: whitesmoke;
+  text-shadow: 1px 1px black;
+}
+
+#serviceHolder li{
+  margin-bottom: 1.5em;
+}
+
+.service{
+
+}
+
+.service p{
+  text-align: left;
+  margin-left: 2em;
+}
+
+.service div{
+  font-weight: bold; 
+  text-align: left;
+  padding-left: 1em;
+}
+
+.service div p{
+  text-align:center;
+}
+
+#about{
+  visibility: hidden;
+}
+
+#contact{
+  visibility: hidden;
+}
+
+/*Transformations*/
+@keyframes drain{
+  0% {
+    top: 0;
+    height: 100%;
+  }
+  100%{
+    top: 100%;
+    height: 0%;
+  }
+}
+
+#referralsTab:hover{  
+  /*I think I have to use javascript*/
+  background-color: #DD4124;
+  }
+#servicesTab:hover{  
+  /*I think I have to use javascript*/
+  background-color: #D2691E;
+  }
+#aboutTab:hover{  
+  /*I think I have to use javascript*/
+  background-color: #EFC050;
+  }
+#projectsTab:hover{  
+  /*I think I have to use javascript*/
+  background-color: #009B77;
+  }
+#skillsTab:hover{  
+  /*I think I have to use javascript*/
+  background-color: #98B4D4;
+  }
+#contactTab:hover{  
+  /*I think I have to use javascript*/
+  background-color: #B76BA3;
+  }
+
+/*drainers and fillers*/
+.drainer{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s; 
+  transition-property: height;
+  z-index: 2;
+}
+
+.drainerDrain{
+  animation: drain 1s 1;
+  z-index: -1;
+}
+
+.filler{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s; 
+  transition-property: height;
+  transition-delay: 1s;
+  z-index: 2;
+}
+
+.refDrainerFill{
+  animation: referralsFill 1s 1;
+  animation-delay: .5s;
+  z-index: -1;
+}
+
+.servDrainerFill{
+  animation: servicesFill 1s 1;
+  animation-delay: .5s;
+  z-index: -1;
+}
+.abDrainerFill{
+  animation:  aboutFill 1s 1;
+  animation-delay: .5s;
+  z-index: -1;
+}
+.projDrainerFill{
+  animation: projectsFill 1s 1;
+  animation-delay: .5s;
+  z-index: -1;
+}
+.skilDrainerFill{
+  animation: skillsFill 1s 1;
+  animation-delay: .5s;
+  z-index: -1;
+}
+.conDrainerFill{
+  animation: contactFill 1s 1;
+  animation-delay: .5s;
+  z-index: -1;
+}
+
+
+@keyframes referralsFill{
+  0% {
+    height: 0%;
+    background: #DD4124;
+  }
+  100%{
+    background-color: #DD4124;
+    height: 100%;
+  }
+}
+
+@keyframes servicesFill{
+  0% {
+    height: 0%;
+    background: #D2691E;
+  }
+  100%{
+    background-color: #D2691E;
+    height: 100%;
+  }
+}
+
+@keyframes aboutFill{
+  0% {
+    height: 0%;
+    background: #EFC050;
+  }
+  100%{
+    background-color: #EFC050;
+    height: 100%;
+  }
+}
+
+@keyframes projectsFill{
+  0% {
+    height: 0%;
+    background: #009B77;
+  }
+  100%{
+    background-color: #009B77;
+    height: 100%;
+  }
+}
+
+@keyframes skillsFill{
+  0% {
+    height: 0%;
+    background: #98B4D4;
+  }
+  100%{
+    background-color: #98B4D4;
+    height: 100%;
+  }
+}
+
+@keyframes contactFill{
+  0% {
+    height: 0%;
+    background: #B76BA3;
+  }
+  100%{
+    background-color: #B76BA3;
+    height: 100%;
+  }
+}
+/* Next attempt*/
+            
+.container{
+  width: 100%;
+  height: 100%;             
+  margin-left: auto; 
+  margin-right: auto; 
+  overflow: hidden; 
+  position: relative;
+}
+    
+    .shape{        
+        top: 4%;
+        border-radius: 50%;
+        border-top-right-radius: 0;
+        transform: rotate(-45deg);
+        margin-left: 20px;
+        position: absolute; 
+        -webkit-transition-duration: 1s;
+        -moz-transition-duration: 1s;
+        -o-transition-duration: 1s;
+        transition-duration: 1s; 
+        transition-property: height;             
+    }
+    
+    @keyframes referralsGrow{
+      0%{}
+      100%{height: 45px;width: 45px; left:13%;}
+    }
+    @keyframes servicesGrow{
+      0%{}
+      100%{height: 45px;width: 45px; left:27%;}
+    }
+    @keyframes aboutGrow{
+      0%{}
+      100%{height: 45px;width: 45px; left:40%;}
+    }
+    @keyframes projectsGrow{
+      0%{}
+      100%{height: 45px;width: 45px; left:53%;}
+    }
+    @keyframes skillsGrow{
+      0%{}
+      100%{height: 45px;width: 45px; left:68%;}
+    }
+    @keyframes contactGrow{
+      0%{}
+      100%{height: 45px;width: 45px; left:81%;}
+    }
+
+    .referralsDropGrow{
+      visibility: visible !important;
+      animation: referralsGrow 1s 1;
+      z-index: -1;
+    }
+    .servicesDropGrow{
+      visibility: visible !important;
+      animation: servicesGrow 1s 1;
+      z-index: -1;
+    }
+    
+    .aboutDropGrow{
+      visibility: visible !important;
+      animation: aboutGrow 1s 1;
+      z-index: -1;
+    }
+    
+    .projectsDropGrow{
+      visibility: visible !important;
+      animation: projectsGrow 1s 1;
+      z-index: -1;
+    }
+    
+    .skillsDropGrow{
+      visibility: visible !important;
+      animation: skillsGrow 1s 1;
+      z-index: -1;
+    }
+    
+    .contactDropGrow{
+      visibility: visible !important;
+      animation: contactGrow 1s 1;
+      z-index: -1;
+    }
+    
+    
+    .referralsDropFall{
+      visibility: visible !important;
+      animation: referralsDrop .75s 1;
+      z-index: -1;
+    }
+
+    @keyframes referralsDrop{
+      0%{top:0; height: 45px;width: 45px; left: 13%;}
+      100%{top: 100%; height: 45px;width: 45px; }
+    }
+
+    .servicesDropFall{
+      visibility: visible !important;
+      animation: servicesDrop .75s 1;
+      z-index: -1;
+    }
+
+    @keyframes servicesDrop{
+      0%{top:0; height: 45px;width: 45px; left: 27%;}
+      100%{top: 100%; height: 45px;width: 45px;}
+    }
+
+    .aboutDropFall{
+      visibility: visible !important;
+      animation: aboutDrop .75s 1;
+      z-index: -1;
+    }
+
+    @keyframes aboutDrop{
+      0%{top:0; height: 45px;width: 45px; left:40%;}
+      100%{top: 100%; height: 45px;width: 45px;}
+    }
+    .projectsDropFall{
+      visibility: visible !important;
+      animation: projectsDrop .75s 1;
+      z-index: -1;
+    }
+
+    @keyframes projectsDrop{
+      0%{top:0; height: 45px;width: 45px; left:53%;}
+      100%{top: 100%; height: 45px;width: 45px; }
+    }
+
+    .skillsDropFall{
+      visibility: visible !important;
+      animation: skillsDrop .75s 1;
+      z-index: -1;
+    }
+
+    @keyframes skillsDrop{
+      0%{top:0; height: 45px;width: 45px; left:68%;}
+      100%{top: 100%; height: 45px;width: 45px;}
+    }
+
+    .contactDropFall{
+      visibility: visible !important;
+      animation: contactDrop .75s 1;
+      z-index: -1;
+    }
+
+    @keyframes contactDrop{
+      0%{top:0; height: 45px;width: 45px; left:81%;}
+      100%{top: 100%; height: 45px;width: 45px;}
+    }
+
+    .container div{
+        width: 10px;
+        height: 10px;
+    }
+
+    #referralDrop{
+      left: 14%;
+      background-color: #DD4124;
+      visibility: hidden;
+    }
+
+    #servicesDrop{
+      left: 28%;
+      background-color: #D2691E;
+      visibility: hidden;
+    }
+
+    #aboutDrop{
+      left: 41%;
+      background-color: #EFC050;
+      visibility: hidden;
+    }
+
+    #projectsDrop{
+      left: 54%;
+      background-color: #009B77;
+      visibility: hidden;
+    }
+
+    #skillsDrop{
+      left: 69%;
+      background-color: #98B4D4;
+      visibility: hidden;
+    }
+
+    #contactDrop{
+      left: 82%;
+      background-color: #B76BA3;
+      visibility: hidden;
+    }
+    
